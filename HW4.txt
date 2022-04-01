@@ -1,0 +1,13 @@
+Random random = new Random();
+int i = random.Next(0,100); // 0 <= i < 100
+//Console.WriteLine();
+switch (i)
+{
+case 0:
+food = "mcd";
+break;
+case 1:
+food = "kfc";
+break;                
+}
+Console.WriteLine("Random recommendation: " + food + ".");
